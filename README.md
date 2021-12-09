@@ -1,5 +1,5 @@
 # Mancala
-A simple game play of Mancala. You can play with the code.
+A simple game play of Mancala. You can play with a computer player.
 
 ## How to play
 1. Make sure you have python3 installed.
