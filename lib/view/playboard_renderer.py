@@ -1,15 +1,15 @@
 class PlayboardRenderer:
     def __init__(self, players: list):
         self.PLAYBOARD = \
-            "            *A*           \n"\
-            "+----+----+----+----+----+\n"\
-            "|    | A2 | A1 | A0 |    |\n"\
-            "| AG |----+----+----| BG |\n"\
-            "|    | B0 | B1 | B2 |    |\n"\
-            "+----+----+----+----+----+\n"\
-            "        |    |    |       \n"\
-            "        a    s    d       \n"\
-            "            *B*             "
+            "                       A            \n"\
+            "          +----+----+----+----+----+\n"\
+            "          |    | A2 | A1 | A0 |    |\n"\
+            "A GOAL >> | AG |----+----+----| BG | << B GOAL\n"\
+            "          |    | B0 | B1 | B2 |    |\n"\
+            "          +----+----+----+----+----+\n"\
+            "                  |    |    |       \n"\
+            "                  a    s    d       \n"\
+            "                       B              "
         self.PLAYERS = players
 
     def render(self) -> str:
