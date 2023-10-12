@@ -11,7 +11,11 @@ A simple game play of Mancala. You can play with a computer player.
 1. Enjoy!
 
 ## What am I doing?
-I aim to practice and learn the following:
+I aimed to practice and learn the following:
 * Design patterns
 * Clean code
 * Machine Learning
+
+But now, I hope this can be an ice-breaker for you and other developers 😸!
+
+Please feel free to be critical on this project during your discussions, because that's how you get to know each other :)
